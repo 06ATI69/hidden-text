@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+  
+/* ==== BUTTON IN THE MIDDLE ==== */
+
+button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ==== TEXT STYLE ==== */
+
+h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.3rem;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ==== BASE STYLES ==== */
+
+body {
+    background-color: #e6e6ff;
+    padding: 15px; 
+  }
+
+h1, h4, p {
+  color: #404040;
+  text-align: center;
+}
+
+button {
+  font-family: 'Geologica', sans-serif;
+  color: #404040;
+  background-color: white;
+  border-radius: 5px;
+  border:  1px solid #404040;
+  margin: 2px;
+}
+
+/* ==== HIDDEN TEXT ==== */
+
+#demo {
+  display: none;
+}
+#demo1 {
+  display: none;
+}
+#demo2 {
+  display: none;
+}
+#demo3 {
+  display: none;
+}
